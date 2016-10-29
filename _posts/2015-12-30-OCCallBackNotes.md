@@ -1,10 +1,9 @@
 ---  
 layout: post_page
 title: OCCallBack notes
----                   
-   
+---
 >Who you are is different from what you do
-  
+
 Target-action:   
 Before the wait begins, you say "When this event happens, send this message to this object." The object receiving the message is the target. The selector for the message is the action.(1-1)
 
