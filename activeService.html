@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>服务激活</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <!-- 引入 Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet">
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="col-lg-6">
+      <h3 style="text-align: center;">服务激活</h3>
+      <br>
+      <div class="input-group">
+          <span class="input-group-addon">姓名</span>
+          <input type="text" class="form-control" placeholder="请输入投保人姓名" id="name">
+      </div>
+      <br>
+
+      <div class="input-group">
+          <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="cardTypeItem">
+                证件类型
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                  <li >
+                      <a onclick="chooseCardType(this)">身份证</a>
+                  </li>
+                  <li>
+                      <a onclick="chooseCardType(this)">护照</a>
+                  </li>
+              </ul>
+          </div><!-- /btn-group -->
+          <input type="text" class="form-control" placeholder="请输入证件号码" id="cardNumber">
+      </div><!-- /input-group -->
+      <br>
+      <div class="input-group">
+          <div class="input-group-btn">
+              <button type="button" class="btn btn-default 
+              dropdown-toggle" data-toggle="dropdown" id="phoneType">手机型号
+                  <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhone6</a>
+                  </li>
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhone6plus</a>
+                  </li>
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhone6s</a>
+                  </li>
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhone6splus</a>
+                  </li>
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhone7</a>
+                  </li>
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhone7plus</a>
+                  </li>
+                  <li>
+                      <a onclick="choosePhoneType(this)">iPhoneSE</a>
+                  </li>
+              </ul>
+          </div><!-- /btn-group -->
+          <input type="text" class="form-control" placeholder="请输入手机号码" id="phoneNumber">
+      </div><!-- /input-group -->
+      <br>
+
+      <div class="input-group">
+        <span class="input-group-addon">IMEI号</span>
+        <input type="text" class="form-control" placeholder="请输入手机唯一IMEI号" id="IMEINumber">
+      </div>
+      <br>
+
+      <div class="input-group">
+        <span class="input-group-addon">服务卡号</span>
+        <input type="text" class="form-control" placeholder="请输入服务卡号" id="ServiceCardNumber">
+      </div>
+      <br>
+
+      <div class="input-group">
+        <span class="input-group-addon">激活密码</span>
+        <input type="text" class="form-control" placeholder="请输入服务卡密码" id="activePassword">
+      </div>
+      <br>
+
+      <p>
+        保障时期<font color="red" id="todayItem">2016-11-11</font>至<font color="red" id="nextYearsDayItem">2017-11-10</font>
+      </p>
+      
+      <input type="checkbox" style="height: 14px;width: 14px"  checked="checked" disabled="true"> 
+      <a href="">碎屏无忧服务合同</a>
+      <br>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+           <h3 class="panel-title">上传照片提示</h3>
+        </div>
+        <div class="panel-body">
+          手机验证照片上传：请进入设置->通用->关于本机，显示本机信息，并向上拖动到完整显示出手机IMEI号码，再将手机放置在"刮开服务密码的服务卡"的旁边拍照，然后点击下面的文件夹按钮上传该照片。
+          <br>
+          请注意：图片必须要把手机整体和服务卡都拍进去，严格按照示意图拍照。
+        </div>
+      </div>
+
+      <form class="form-inline" role="form">
+        <input type="file" class="file" id="activeServiceChecking">
+      </form>
+      <br>
+      
+      <div id="uploadPictureSucceedToast"></div>
+      <button type="button" class="btn btn-primary" style="width: 100%" onclick="activeButtonClicked()" id="activeButton">激活</button>   
+    </div><!-- /.col-lg-6 -->
+    <br>
+
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- 文件输入 -->
+    <script src="bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
+    <!-- 操作脚本 -->
+    <script src="scripts/activeService.js"></script>    
+  </body>
+</html>
