@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>OCCallBack notes</title>
+  <meta name="description" content="  Who you are is different from what you doTarget-action: Before the wait begins, you say “When this event happens, send this message to this object.” The ob...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/%E6%8A%80%E6%9C%AF/2015/12/30/OCCallBackNotes.html">
+  <link rel="alternate" type="application/atom+xml" title="Your awesome title" href="http://localhost:4000/feed.xml" />
+  <script src="/scripts/jquery-1.11.2.min.js"></script>
+  <script src="/scripts/pithy.js"></script>
+</head>
+
+
+  <body>
+    <header class="header">
+	<div class="header-container">
+		<div class="nav">
+			
+				<li>
+					<a href="/index.html">home</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/archive.html">archive</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/category.html">category</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/about.html">about</a>
+				</li>			
+			
+		</div>
+		<div class="description"> Your motto </div>		
+		<ul class="social-links">
+			<li>
+				<a href="https://github.com/jekyll" title="Github">
+					<img width="19px" height="19px" src="/images/github.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="/feed.xml" title="RSS">
+					<img width="19px" height="19px" src="/images/rss.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/jekyllrb" title="Twitter">
+					<img width="19px" height="19px" src="/images/twitter.png"/>
+				</a>
+			</li>
+		</ul>		
+	</div>
+</header>
+
+    <br>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+  <br>
+  <header class="post-header">
+    <h1 class="post-title">OCCallBack notes</h1>
+    <p class="post-meta">Dec 30, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <blockquote>
+  <p>Who you are is different from what you do</p>
+</blockquote>
+
+<p>Target-action: <br />
+Before the wait begins, you say “When this event happens, send this message to this object.” The object receiving the message is the target. The selector for the message is the action.(1-1)</p>
+
+<p>Helper objects:  <br />
+Before the wait begins, you say “Here is an object that will take on a role that helps another object do its jobs. When one of the events related to this role occurs, send a message to the helper object.” Helper objects are often known as delegates or datasource.(1-n)</p>
+
+<p>Notification:  <br />
+There is an object callded the notification center. When an event happens, a notification associated with that event will be posted to the notification center.Before the wait begins, you tell the notification center “This object is intersted in this kind of notification. When one is posted, send this message to the object.”(n-n)</p>
+
+<p>Blocks:  <br />
+A block is just a chunk of code to be excuted. Before the wait begins, you say “Here is a block. When this event happens, excute this block.” (1-1&amp;&amp;Elegant)</p>
+
+<p>回调的意义: <br />
+A生成并且持有对象B,B声明的函数由X来实现，X可以是A或者其他对象，X在以上前三种回调分别表示target,delegate,object。</p>
+
+<p>关于blocks: <br />
+A对象给了一个block给B,B负责调用这个block，但是怎样去实现却由A来决定，这样就是实现了B在能访问A的上下文的同时进行函数调用。</p>
+
+<p>Blocks和其他回调的区别: <br />
+Blocks和其他回调机制不同的地方之一是blocks的实现可以写在传blocks的附近，而不是在几百行之后。</p>
+
+
+  </article>
+</div>
+
+      </div>
+    </div>
+    
+    <footer class="footer">
+  <div id="gotop">^</div>
+  <br>
+	@2015 Pithy Theme by Pawpaw.
+</footer>
+
+    
+  </body>
+
+</html>

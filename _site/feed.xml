@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 Oct 2016 21:47:30 +0800</pubDate>
+    <lastBuildDate>Sat, 29 Oct 2016 21:47:30 +0800</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Booklist</title>
+        <description>&lt;p&gt;1.黑客与画家&lt;/p&gt;
+
+&lt;p&gt;2.必然&lt;/p&gt;
+
+&lt;p&gt;3.科技想要什么&lt;/p&gt;
+
+&lt;p&gt;4.失控&lt;/p&gt;
+
+&lt;p&gt;5.小径分叉的花园&lt;/p&gt;
+
+&lt;p&gt;6.国富论&lt;/p&gt;
+
+&lt;p&gt;7.苏菲的世界&lt;/p&gt;
+
+&lt;p&gt;8.美的历史&lt;/p&gt;
+
+&lt;p&gt;9.影响力&lt;/p&gt;
+
+&lt;p&gt;10.枪炮，病菌与钢铁&lt;/p&gt;
+
+&lt;p&gt;11.历史是个什么玩意儿&lt;/p&gt;
+
+&lt;p&gt;12.从一到无穷大&lt;/p&gt;
+
+&lt;p&gt;13.时间简史&lt;/p&gt;
+
+&lt;p&gt;14.给大家看的设计书籍&lt;/p&gt;
+
+&lt;p&gt;15.自私的基因&lt;/p&gt;
+
+&lt;p&gt;16.编码的奥秘&lt;/p&gt;
+
+&lt;p&gt;17.穿越计算机的迷雾&lt;/p&gt;
+
+&lt;p&gt;18.物理世界奇遇记&lt;/p&gt;
+
+&lt;p&gt;19.自尊的力量&lt;/p&gt;
+
+&lt;p&gt;20.枪，帆船，帝国：技术革新在1400~1700年欧洲扩张早期阶段的作用&lt;/p&gt;
+
+&lt;p&gt;21.三体&lt;/p&gt;
+
+&lt;p&gt;22.人类简史&lt;/p&gt;
+
+&lt;p&gt;23.简单思考&lt;/p&gt;
+
+&lt;p&gt;24.理想国&lt;/p&gt;
+
+&lt;p&gt;25.政治学&lt;/p&gt;
+
+&lt;p&gt;26.上帝之城&lt;/p&gt;
+
+&lt;p&gt;27.纯粹理性批判&lt;/p&gt;
+
+&lt;p&gt;28.论语&lt;/p&gt;
+
+&lt;p&gt;29.道德经&lt;/p&gt;
+
+&lt;p&gt;30.史记&lt;/p&gt;
+
+&lt;p&gt;31.资治通鉴&lt;/p&gt;
+
+&lt;p&gt;32.皇帝新脑&lt;/p&gt;
+
+&lt;p&gt;33.德川家康&lt;/p&gt;
+
+&lt;p&gt;34.第三帝国的兴亡&lt;/p&gt;
+
+&lt;p&gt;35.阿拉伯的劳伦斯&lt;/p&gt;
+
+&lt;p&gt;36.资本论&lt;/p&gt;
+
+&lt;p&gt;37.毛选&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 15 Jan 2016 22:19:01 +0800</pubDate>
+        <link>http://localhost:4000/%E6%8A%80%E6%9C%AF/2016/01/15/BookList.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%8A%80%E6%9C%AF/2016/01/15/BookList.html</guid>
+        
+        
+        <category>技术</category>
+        
+      </item>
+    
+      <item>
+        <title>Scientists&amp;&amp;Engineer</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;The better you understand what you are doing, the better you will do it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;很多人都有这样的疑问：软件工程师?到底是干嘛的?&lt;/p&gt;
+
+&lt;p&gt;工程师和科学家的概念，原本就没有出租车司机和厨师那样分明。科学家努力探索大自然，以便发现一般性法则（general principles），工程师则遵照此既定原则，从而在数学和科学上，解决了一些技术问题。科学家探索世界以发现普遍法则，但工程师使用普遍法则以设计实际物品。科学家研究东西，工程师建立东西，这一想法，可视为表达这句话，”科学家们问为什么，工程师问为什么不能呢？”（”Scientists ask why, engineers ask why not?”）。&lt;/p&gt;
+
+&lt;p&gt;探索世界发现未知和使用已知的一切建立新的秩序和逻辑之间一个很大的区别就是目的性(Teleonomy),工程师做的事情和大部分工作一样，都具有很强的目的性，而在日常生活中，带着越强的目的性做事，往往意味更快地接近目标。比如出租车司机和厨师。对于科学家来说，研究性质的工作往往不带有那么强的目的性，甚至可以说说有的时候科学家研究的目的就是研究本身。&lt;/p&gt;
+
+&lt;p&gt;软件也是工具，人类是乐于制造工具并且使用的群体，但是由于人类发展这么多年，一个工具的制造者和使用者所在的群体已经逐渐分化，作为个体你不可能有太多精力去关注电脑是怎么造出来的，尽管你每天都要用它；但是如果把整个人类当做一个整体，你就会发现扮演好自己的角色并且和其他的部分协调从而让人类这一个大的群体发挥伟大力量会重要的多。&lt;/p&gt;
+
+&lt;p&gt;Know yourself，无论是从个体的角度还是群体的角度。&lt;/p&gt;
+
+&lt;p&gt;当然在某些特殊情况下使用工具和制造工具之间的界限并不那么明显，比如你使用一个软件，很明显你是使用一个工具；比如你使用一种语言去写软件，这个时候你既是制造者也是使用者，你是这个语言的使用者，同时你是这个软件的制造者；那比如你用一种语言去写另外一种语言呢，要是这样会不会无穷无尽呢？而在这种情况下你还敢说你是一个软件工程师而不是计算机科学家吗？&lt;/p&gt;
+
+&lt;p&gt;问题的关键是在无数条分支和多层级的逻辑的引导下跑的太偏而不至于迷路。&lt;/p&gt;
+
+&lt;p&gt;工程师需要有很强的目的性，工具存在的意义是使用，而人类本身就是使用工具的最高层，既然一切工具的本源都是服务人类，为什么不从一开始就关注人类本身，也就是我们自己呢？&lt;/p&gt;
+
+&lt;p&gt;And,remember your target.&lt;/p&gt;
+
+&lt;p&gt;工程师不是科学家，造工具只是少数人的事情，大部分时候工程师存在的意义是使用工具解决人们实际的需求，就好比一个武学高手信手拈来各种招式杀人于无形，杀人才是目的，招式永远只是手段。&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 05 Jan 2016 22:19:01 +0800</pubDate>
+        <link>http://localhost:4000/%E6%8A%80%E6%9C%AF/2016/01/05/Scientists&&Engineer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%8A%80%E6%9C%AF/2016/01/05/Scientists&&Engineer.html</guid>
+        
+        
+        <category>技术</category>
+        
+      </item>
+    
+      <item>
+        <title>OCCallBack notes</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Who you are is different from what you do&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Target-action: &lt;br /&gt;
+Before the wait begins, you say “When this event happens, send this message to this object.” The object receiving the message is the target. The selector for the message is the action.(1-1)&lt;/p&gt;
+
+&lt;p&gt;Helper objects:  &lt;br /&gt;
+Before the wait begins, you say “Here is an object that will take on a role that helps another object do its jobs. When one of the events related to this role occurs, send a message to the helper object.” Helper objects are often known as delegates or datasource.(1-n)&lt;/p&gt;
+
+&lt;p&gt;Notification:  &lt;br /&gt;
+There is an object callded the notification center. When an event happens, a notification associated with that event will be posted to the notification center.Before the wait begins, you tell the notification center “This object is intersted in this kind of notification. When one is posted, send this message to the object.”(n-n)&lt;/p&gt;
+
+&lt;p&gt;Blocks:  &lt;br /&gt;
+A block is just a chunk of code to be excuted. Before the wait begins, you say “Here is a block. When this event happens, excute this block.” (1-1&amp;amp;&amp;amp;Elegant)&lt;/p&gt;
+
+&lt;p&gt;回调的意义: &lt;br /&gt;
+A生成并且持有对象B,B声明的函数由X来实现，X可以是A或者其他对象，X在以上前三种回调分别表示target,delegate,object。&lt;/p&gt;
+
+&lt;p&gt;关于blocks: &lt;br /&gt;
+A对象给了一个block给B,B负责调用这个block，但是怎样去实现却由A来决定，这样就是实现了B在能访问A的上下文的同时进行函数调用。&lt;/p&gt;
+
+&lt;p&gt;Blocks和其他回调的区别: &lt;br /&gt;
+Blocks和其他回调机制不同的地方之一是blocks的实现可以写在传blocks的附近，而不是在几百行之后。&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 30 Dec 2015 22:19:01 +0800</pubDate>
+        <link>http://localhost:4000/%E6%8A%80%E6%9C%AF/2015/12/30/OCCallBackNotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%8A%80%E6%9C%AF/2015/12/30/OCCallBackNotes.html</guid>
+        
+        
+        <category>技术</category>
+        
+      </item>
+    
+      <item>
+        <title>Start</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;The better you understand what you are doing, the better you will do it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;很多人都有这样的疑问：软件工程师?到底是干嘛的?&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 07 Dec 2015 22:19:01 +0800</pubDate>
+        <link>http://localhost:4000/%E6%8A%80%E6%9C%AF/2015/12/07/Start.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%8A%80%E6%9C%AF/2015/12/07/Start.html</guid>
+        
+        
+        <category>技术</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 09 Apr 2015 19:23:32 +0800</pubDate>
+        <link>http://localhost:4000/jekyll/update/2015/04/09/welcome-to-jekyll-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/04/09/welcome-to-jekyll-copy.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
